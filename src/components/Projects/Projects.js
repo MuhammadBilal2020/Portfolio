@@ -15,6 +15,11 @@ import snp from "../../Assets/Projects/snp.jfif";
 import po from "../../Assets/Projects/po.png";
 import bs from "../../Assets/Projects/bs.webp";
 import bw from "../../Assets/Projects/bw.avif";
+import q from "../../Assets/Projects/q.avif";
+import h1 from "../../Assets/Projects/h1.jpg";
+
+
+
 
 
 function Projects() {
@@ -52,6 +57,17 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={h1}
+              isBlog={false}
+              title="Html and Css Hackathon"
+              description="
+This is my first hackathon, where I successfully design the Burger King homepage in just one hour. I used HTML, CSS, and Bootstrap to create a responsive design. It was a challenging but rewarding experience!"
+              ghLink="https://github.com/MuhammadBilal2020/burgerking-home-page"
+              demoLink="https://muhammadbilal2020.github.io/burgerking-home-page/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={bs}
               isBlog={false}
               title="Buy and Sell Corner"
@@ -65,63 +81,28 @@ function Projects() {
             <ProjectCard
               imgPath={bw}
               isBlog={false}
-              title="Sunshine Exhause"
+              title="Personal Blogging Site"
               description="Designed and implemented a blogging platform using React for the frontend and Firebase for backend services. The platform supports secure user authentication, allowing users to create, edit, and manage posts."
               demoLink="https://react-blogging-website-puce.vercel.app/dashboard"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={textutils}
-              isBlog={false}
-              title="Textutils"
-              description="TextUtils is a powerful module that offers a range of functionalities for extracting and manipulating text from paragraphs. such as whitespace removal, word capitalization, and word lowercasing."
-              ghLink="https://github.com/mabdullahjs/TextUtils"
-              demoLink="https://textutils-322.web.app/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={quiz}
+              imgPath={q}
               isBlog={false}
-              title="Quiz App"
-              description="Quiz app is very helpful for schools and students. It helps them to develop their skills and knowledge through quizzes. This app provides a way for students to take exams, improve their abilities and skills."
-              ghLink="https://github.com/mabdullahjs/Presentation-Quiz-App"
-              demoLink="https://quiz-322.web.app/"
+              title="Quiz Web"
+              description="
+I built a quiz website using React.js that integrates with an API to retrieve questions and answers. This allows users to easily participate in quizzes across various topics. The design focuses on simplicity and user engagement."
+              ghLink="https://github.com/MuhammadBilal2020/React-Quiz-Web"
+              demoLink="https://react-quiz-web.vercel.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="Old Portfolio"
-              description="This is my previous portfolio website, created using HTML, CSS, JavaScript, Tailwind CSS, and Firebase. It has been recognized with the  Best Design of Portfolio award in my class."
-              ghLink="https://github.com/mabdullahjs/Complete-Portfolio"
-              demoLink="https://portfolio-322.web.app/"
-            />
-          </Col> */}
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={noon}
-              isBlog={false}
-              title="noon.com clone"
-              description="This is a design of noon.com made using reactjs and antdesign library. It has a responsive layout which looks beautifully on all devices, from mobiles to desktops."
-              ghLink="https://github.com/mabdullahjs/Noon.com-Clone"
-              demoLink="https://noon-322.web.app/"
-            />
-          </Col> */}
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tkh}
-              isBlog={false}
-              title="Theek Kar Dengey "
-              description="This is a mobile repairing website which contain all e-commerce features and it is made using react js and antd. You can fix and buy repaired products on the website."
-              ghLink="https://github.com/mabdullahjs/Mobile-Repair-ReactJs"
-              demoLink="https://tkh-123.web.app/"
-            />
-          </Col> */}
+         
+         
+       
 
 
 
