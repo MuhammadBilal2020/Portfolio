@@ -2,21 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import sunshine from "../../Assets/Projects/sunshine.png";
-import quiz from "../../Assets/Projects/quiz.png";
-import textutils from "../../Assets/Projects/textutils.png";
-import portfolio from "../../Assets/Projects/portfolio.png";
-import tkh from "../../Assets/Projects/tkh.png";
-import noon from "../../Assets/Projects/noon.png";
-import dietes from "../../Assets/Projects/dietes.png";
-import fumicon from "../../Assets/Projects/fumicon.png";
-import lms from "../../Assets/Projects/LMS-portal.png";
+
 import snp from "../../Assets/Projects/snp.jfif";
 import po from "../../Assets/Projects/po.png";
 import bs from "../../Assets/Projects/bs.webp";
 import bw from "../../Assets/Projects/bw.avif";
 import q from "../../Assets/Projects/q.avif";
 import h1 from "../../Assets/Projects/h1.jpg";
+import olx from "../../Assets/Projects/olx.png";
+
 
 
 
@@ -79,6 +73,18 @@ This is my first hackathon, where I successfully design the Burger King homepage
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={olx}
+              isBlog={false}
+              title="OLX clone"
+              description="
+I have tried to create an OLX clone. It doesn't have all the functionalities that OLX offers, but I have added many features. I'm still working on it."
+              ghLink="https://github.com/MuhammadBilal2020/Like-Olx"
+              demoLink="https://like-olx-muhammadbilalmerns-projects.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={bw}
               isBlog={false}
               title="Personal Blogging Site"
@@ -87,7 +93,7 @@ This is my first hackathon, where I successfully design the Burger King homepage
             />
           </Col>
 
-          
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -100,9 +106,11 @@ I built a quiz website using React.js that integrates with an API to retrieve qu
               demoLink="https://react-quiz-web.vercel.app/"
             />
           </Col>
-         
-         
-       
+
+
+
+
+
 
 
 
