@@ -10,14 +10,14 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Bilal Iqbal </span>
             from <span className="purple"> Karachi, Pakistan.</span>
-            <br />I am a Frontend developer and student at SMIT.
+            <br />I’m a frontend developer, currently working at Cloud Fusion Global and studying at Virtual University.
             <br />
             <br />
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            {/* Apart from coding, some other activities that I love to do! */}
           </p>
-          <ul>
+          {/* <ul>
             <li className="about-activity">
               <ImPointRight /> Gyming
             </li>
@@ -25,7 +25,7 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
-          </ul>
+          </ul> */}
 
          
         </blockquote>

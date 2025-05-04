@@ -7,9 +7,9 @@ function Resumedata() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-          <h2 className="purple">Projects </h2>
-            <span>Designed a restaurant website using HTML, CSS, and Bootstrap, focusing on a clean, modern layout with menu and offers.</span>
-            <br />
+          <h2 className="purple">Internship </h2>
+            <span>I completed a 3-month internship as a React developer at Cloud Fusion Global, where I strengthened my skills in building responsive UIs, efficiently managing state, integrating APIs, and developing applications using a component-based architecture.</span>
+            {/* <br />
             <br />
             <span>Built a PriceOye clone with HTML, CSS, and Bootstrap, recreating the platform's responsive design and product features.</span>
             <br />
@@ -20,7 +20,7 @@ function Resumedata() {
             <span>Built a blogging platform with React and Firebase for authentication and dynamic content management.</span>
             <br />
             <br />
-            <span>For more watch my projects section.</span>
+            <span>For more watch my projects section.</span> */}
             
 
 
